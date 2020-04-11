@@ -1,0 +1,136 @@
+<ion-header [translucent]="true">
+  <ion-row>
+    <ion-col size="2">
+      <div class="circle">
+        <img src="assets/logo.jpg" alt="">
+      </div>
+    </ion-col>
+    <ion-col size="8">
+      <div class="title">Site Miséria</div>
+      <div class="subtitle">Aconteceu? Tá no Miséria</div>
+    </ion-col>
+    <ion-col size="2" class="menux" (click)="openFirst()">
+      <div class="ion-float-right">
+        <img src="assets/icon/icons-dark-menux.png" alt="">
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-card>
+    <ion-card-header>
+      <ion-row>
+        <ion-col size="6">
+          <div class="ion-float-left">
+            <ion-badge>SAÚDE</ion-badge>
+          </div>
+        </ion-col>
+        <ion-col size="6">
+          <div class="ion-float-right bookmark-outline">
+            <ion-icon name="bookmark-outline"></ion-icon>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-card-title><strong>Em directo/</strong> Situação da banca merece confiança dos portugueses</ion-card-title>
+    </ion-card-header>
+    <ion-card-subtitle>
+      Depois de reunir à distância com os 5 maiores bancos, marcelo diz que setor já iniciou os processos para colocar o terreno
+    </ion-card-subtitle>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-content class="mt-1">
+      <ion-list lines="none">
+        <ion-item>
+          <ion-thumbnail>
+            <ion-img src="https://bordalo.observador.pt/100x,q85/https://s3.observador.pt/wp-content/uploads/2020/04/06134237/28574942_433x433_acf_cropped-1.jpg"></ion-img>
+          </ion-thumbnail>
+          <ion-label>
+            <ion-row>
+              <ion-col size="6">
+                <div class="category">
+                  Política
+                </div>
+              </ion-col>
+              <ion-col size="6">
+                <div class="ion-float-right bookmark-outline">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </ion-col>
+            </ion-row>
+            <div class="title-ion-item">Menor subida de casos desde o acelerar da pandemia</div>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+
+    <div class="divider"></div>
+
+    <ion-card-content class="mb-1">
+      <ion-list lines="none">
+        <ion-item>
+          <ion-thumbnail>
+            <ion-img src="https://bordalo.observador.pt/400x,q85/https://s3.observador.pt/wp-content/uploads/2020/04/06201918/28586873-1-scaled_770x433_acf_cropped.jpg"></ion-img>
+          </ion-thumbnail>
+          <ion-label>
+            <ion-row>
+              <ion-col size="6">
+                <div class="category">
+                  Covid-19
+                </div>
+              </ion-col>
+              <ion-col size="6">
+                <div class="ion-float-right bookmark-outline">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </ion-col>
+            </ion-row>
+            <div class="title-ion-item">Em direto/ Boris Johnson internado nos cuidados intensivos</div>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="1"></ion-col>
+      <ion-col>
+        <ion-row>
+          <div class="title-pub">PUBLICIDADE</div>
+          <ion-img src="assets/pub.png"></ion-img>
+        </ion-row>
+      </ion-col>
+      <ion-col size="1"></ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-row>
+        <ion-col size="6">
+          <div class="ion-float-left">
+            <ion-badge>Economia</ion-badge>
+          </div>
+        </ion-col>
+        <ion-col size="6">
+          <div class="ion-float-right bookmark-outline">
+            <ion-icon name="bookmark-outline"></ion-icon>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-card-title class="ion-card-title-app"><strong>Auxílio Emergencial /</strong> 22 milhões já se cadastraram e 40% não têm conta em banco, diz caixa</ion-card-title>
+      <!--<ion-card-subtitle>Depois de reunir à distância com os 5 maiores bancos, marcelo diz que setor já iniciou os processos para colocar o terreno</ion-card-subtitle>-->
+    </ion-card-header>
+    <div class="bg-ion-img mb-1">
+      <ion-img src="https://bordalo.observador.pt/400x,q85/https://s3.observador.pt/wp-content/uploads/2020/04/06183100/28549144-scaled_770x433_acf_cropped-1.jpg"></ion-img>
+      <div class="capa"></div>
+    </div>
+    <ion-card-subtitle class="ion-card-subtitle">
+      Presidente do banco diz que abrirá conta gratuita para grupo reeber o benefício.
+    </ion-card-subtitle>
+  </ion-card>
+
+</ion-content>

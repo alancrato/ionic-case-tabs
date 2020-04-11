@@ -1,0 +1,154 @@
+
+ion-content ion-toolbar {
+  --background: translucent;
+}
+
+.menux{
+  margin-top: 10px;
+  margin-left: -1rem;
+}
+
+.circle img{
+  width: 35px;
+  border-radius: 50%;
+  margin: 5px 15px 0;
+}
+
+.title{
+  margin-top: 2px;
+  font-weight: 500;
+  color: #23315E;
+  /*color: #262626;*/
+}
+
+.subtitle{
+  font-size: 0.72rem;
+  font-weight: 300;
+  color: dimgray;
+  /*color: #585858;
+  color: #545453;*/
+}
+
+.bg-ion-img{
+  position: relative;
+}
+
+.capa {
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+ion-badge{
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 100;
+  /*background-color: #bbb8b8;*/
+  background-color: firebrick;
+  text-transform: uppercase;
+}
+
+ion-card-title strong{
+  /*color: #57a0d7;*/
+  color: #23315E;
+}
+
+ion-card-title{
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #262626;
+}
+
+.ion-card-title-app{
+  font-size: 1.2rem;
+}
+
+ion-card-subtitle{
+  padding: 0 20px 15px;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  font-weight: 300;
+  text-transform: none;
+  color: #000000e3;
+}
+
+ion-card-content{
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+ion-label{
+  white-space: inherit !important;
+  margin: 10px;
+}
+
+.title-ion-item{
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #262626;
+  margin-top: -10px;
+}
+
+ion-card{
+  margin-right: 0;
+  margin-left: 0;
+  border-radius: 0;
+}
+
+ion-header{
+  margin-bottom: -1rem;
+  background-color: white;
+  border-bottom: 1px solid #cccccc33;
+}
+
+.bookmark-outline{
+  font-size: 1.3rem;
+  color: #afb4c5;
+}
+
+.title-pub{
+  color: #00000059;
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+.mt-1{
+  margin-top: 10px;
+}
+
+.mb-1{
+  margin-bottom: 10px;
+}
+
+ion-thumbnail{
+  width: 75px;
+  height: 75px;
+}
+
+.category{
+  font-size: 12px;
+  font-weight: 500;
+  color: #23315e;
+  margin-left: -5px;
+  text-transform: uppercase;
+}
+
+.topic {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.8125rem;
+  line-height: 1.0625rem;
+  padding: 1px 0 0;
+  color: #262626;
+}
+
+.mod-title {
+  font-size: 1.375rem;
+  line-height: 1.625rem;
+  font-weight: 900;
+  margin-top: 6px;
+  margin-bottom: 8px;
+}

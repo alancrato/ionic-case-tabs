@@ -1,0 +1,32 @@
+
+.my-custom-menu {
+  --width: 500px;
+}
+
+ion-menu-toggle{
+  margin-top: 20px;
+}
+
+ion-item{
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: slategrey;
+}
+
+.circle img{
+  width: 35px;
+  border-radius: 50%;
+  margin: 5px 15px;
+}
+
+.title{
+  margin-top: 2px;
+  font-weight: 500;
+  color: #262626;
+}
+
+.subtitle{
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: #545453;
+}
